@@ -1,7 +1,7 @@
 export default {
     providers: [
         {
-            domain: "https://optimal-gibbon-66.clerk.accounts.dev",
+            domain: process.env.CLERK_API_URL,
             applicationID: "convex",
         },
     ]
